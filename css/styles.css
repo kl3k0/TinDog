@@ -124,6 +124,10 @@ p {
   border: none;
 }
 
+.pricing-type {
+  font-size: 2rem;
+}
+
 
 @media (max-width: 1028px) {
   .title-img {
