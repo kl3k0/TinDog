@@ -1,5 +1,6 @@
 body {
     font-family: "Montserrat", sans-serif;
+      text-align: center;
 }
  /* lepiej nadawac klasy napisom zeby nie edytowac stricte samych headingow, mozna robic h1, h2, h3 {} i wtedy etytujemy wszystkie */
 h1 {
@@ -23,13 +24,18 @@ p {
 }
 
 .container-fluid {
-  padding: 3% 15% 7%;
+  padding: 5% 15%;
 }
 
 #title {
   color: white;
   background-color: #ff4c68;
   position: relative;
+  text-align: left;
+}
+
+#title .container-fluid {
+  padding: 3% 15% 7%;
 }
 
 .navbar{
@@ -84,7 +90,6 @@ p {
  }
 
 #testimonials {
-  text-align: center;
   background-color: #ef8172;
   color: white;
 }
@@ -95,13 +100,9 @@ p {
   margin: 20px;
 }
 
-.carousel-item {
-  padding: 7% 15%;
-}
 
 #press {
   background-color: #ef8172;
-  text-align: center;
   padding-bottom: 3%;
 }
 
@@ -111,7 +112,6 @@ p {
 }
 
 #pricing {
-  text-align: center;
   padding: 100px;
 }
 
@@ -136,7 +136,6 @@ p {
     width: 40vh;
   }
   #title {
-    text-align: center;
     align-items: center;
   }
 
@@ -154,14 +153,8 @@ p {
 #cta {
   background-color: #ff4c68;
   color: white;
-  padding: 5% 25%;
-  text-align: center;
 }
 
-#footer {
-  text-align: center;
-  padding: 5% 20%;
-}
 i {
   padding: 2% 1%;
 }
