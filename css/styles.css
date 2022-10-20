@@ -1,11 +1,11 @@
 body {
     font-family: "Montserrat", sans-serif;
 }
-
+ /* lepiej nadawac klasy napisom zeby nie edytowac stricte samych headingow, mozna robic h1, h2, h3 {} i wtedy etytujemy wszystkie */
 h1 {
-      font-size: 3.5rem;
-      line-height: 1.5;
-      font-weight: 900;
+    font-size: 3.5rem;
+    line-height: 1.5;
+    font-weight: 900;
 }
 
 h2 {
