@@ -1,11 +1,11 @@
+body {
+    font-family: "Montserrat", sans-serif;
+}
+
 h1 {
       font-size: 3.5rem;
       line-height: 1.5;
       font-weight: 900;
-}
-
-body {
-    font-family: "Montserrat", sans-serif;
 }
 
 h2 {
@@ -31,11 +31,7 @@ p {
   background-color: #ff4c68;
   position: relative;
 }
- #features{
-   padding: 7% 10%;
-   background: white;
-   position: relative;
- }
+
 .navbar{
   padding-bottom: 4.5rem;
 }
@@ -79,6 +75,12 @@ p {
  }
  .dostosuj:hover{
     color: #ff4c68;
+ }
+
+ #features{
+   padding: 7% 10%;
+   background: white;
+   position: relative;
  }
 
 #testimonials {
